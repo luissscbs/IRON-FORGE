@@ -508,9 +508,7 @@
     .footer-copy span {
       color: var(--amarillo);
     }
-    /* ==============================
-   PLANES
-============================== */
+
 #planes {
   background-color: #111111;
 }
@@ -570,7 +568,7 @@
 .plan-card.destacado .plan-nombre {
   color: rgba(0, 0, 0, 0.5);
 }
-s
+
 .plan-precio {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 3.5rem;
