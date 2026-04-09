@@ -520,6 +520,8 @@
 }
 
 .plan-card {
+  display: flex;
+  flex-direction: column;
   flex: 1 1 240px;
   background-color: var(--oscuro);
   border: 1px solid var(--borde);
@@ -536,19 +538,6 @@
 .plan-card.destacado {
   background-color: var(--amarillo);
   border-color: var(--amarillo);
-}
-
-.plan-etiqueta {
-  display: inline-block;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  padding: 5px 12px;
-  border-radius: 100px;
-  background-color: var(--amarillo);
-  color: var(--negro);
-  margin-bottom: 1.2rem;
 }
 
 .plan-card.destacado .plan-etiqueta {
@@ -628,7 +617,7 @@
 
 .plan-lista li.no::before {
   content: '× ';
-  color: var(--borde);
+  color: var(--amarillo);
 }
 
 .plan-card.destacado .plan-lista li {
@@ -654,6 +643,7 @@
   background-color: transparent;
   cursor: pointer;
   transition: background-color 0.2s ease, color 0.2s ease;
+  margin-top: auto;
 }
 
 .boton-plan:hover {
